@@ -14,6 +14,7 @@
 		0E0D79EC2D4EB96D004FB156 /* raketno_nebezpechna_slobidkaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0D79EB2D4EB96D004FB156 /* raketno_nebezpechna_slobidkaTests.swift */; };
 		0E0D79F62D4EB96D004FB156 /* raketno_nebezpechna_slobidkaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0D79F52D4EB96D004FB156 /* raketno_nebezpechna_slobidkaUITests.swift */; };
 		0E0D79F82D4EB96D004FB156 /* raketno_nebezpechna_slobidkaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0D79F72D4EB96D004FB156 /* raketno_nebezpechna_slobidkaUITestsLaunchTests.swift */; };
+		0E0D7A052D4ED36E004FB156 /* alarm.wav in Resources */ = {isa = PBXBuildFile; fileRef = 0E0D7A042D4ED36E004FB156 /* alarm.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		0E0D79F12D4EB96D004FB156 /* raketno-nebezpechna-slobidkaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "raketno-nebezpechna-slobidkaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E0D79F52D4EB96D004FB156 /* raketno_nebezpechna_slobidkaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = raketno_nebezpechna_slobidkaUITests.swift; sourceTree = "<group>"; };
 		0E0D79F72D4EB96D004FB156 /* raketno_nebezpechna_slobidkaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = raketno_nebezpechna_slobidkaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0E0D7A042D4ED36E004FB156 /* alarm.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = alarm.wav; path = ../../../Downloads/alarm.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		0E0D79D92D4EB96B004FB156 /* raketno-nebezpechna-slobidka */ = {
 			isa = PBXGroup;
 			children = (
+				0E0D7A042D4ED36E004FB156 /* alarm.wav */,
 				0E0D79DA2D4EB96B004FB156 /* raketno_nebezpechna_slobidkaApp.swift */,
 				0E0D79DC2D4EB96B004FB156 /* ContentView.swift */,
 				0E0D79DE2D4EB96C004FB156 /* Assets.xcassets */,
@@ -233,6 +236,7 @@
 			files = (
 				0E0D79E22D4EB96C004FB156 /* Preview Assets.xcassets in Resources */,
 				0E0D79DF2D4EB96C004FB156 /* Assets.xcassets in Resources */,
+				0E0D7A052D4ED36E004FB156 /* alarm.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +426,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"raketno-nebezpechna-slobidka/Preview Content\"";
+				DEVELOPMENT_TEAM = 352H522HS3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +455,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"raketno-nebezpechna-slobidka/Preview Content\"";
+				DEVELOPMENT_TEAM = 352H522HS3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
